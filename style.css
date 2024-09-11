@@ -1,3 +1,28 @@
-.heading {
-    color: blue;
+.hero-section {
+    color: white;
+    background-image: url(./image/heroimg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.nav-items a{
+    color: white;
+    text-decoration: none;
 }
