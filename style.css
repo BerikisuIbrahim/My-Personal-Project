@@ -1,8 +1,9 @@
 .hero-section {
     color: white;
-    background-image: url(./image/heroimg.jpg);
+    background-image: url(./image/hero_1.jpg.webp);
     background-size: cover;
     height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -25,4 +26,31 @@ nav {
 .nav-items a{
     color: white;
     text-decoration: none;
+}
+.text-white h3{
+    font-size: 25px;
+}
+
+
+
+.header-theme {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    padding-left: 8rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.btn {
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
 }
