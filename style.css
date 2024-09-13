@@ -131,3 +131,9 @@ nav {
 .work-11 {
     padding-left: 100px;
 }
+
+.image {
+    padding-top: 50px;
+    display: flex;
+    column-gap: 27px;
+}
