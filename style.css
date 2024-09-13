@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    overflow-x: hidden;
+}
+
 .hero-section {
     color: white;
     background-image: url(./image/hero_1.jpg.webp);
@@ -128,12 +133,56 @@ nav {
     font-size: 40px;
 }
 
+#work-11-section {
+
+}
+
 .work-11 {
-    padding-left: 100px;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+
+
 }
 
 .image {
     padding-top: 50px;
     display: flex;
     column-gap: 27px;
+}
+
+.img-1 {
+    padding-top: 20px;
+}
+
+.img-12 {
+    padding-top: 20px;
+}
+
+.img-3 {
+    padding-top: 20px;
+}
+
+.price {
+    background-color: white;
+    height: 100px; 
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.082);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+}
+
+.image-box {
+    position: relative;
+}
+
+.price-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
